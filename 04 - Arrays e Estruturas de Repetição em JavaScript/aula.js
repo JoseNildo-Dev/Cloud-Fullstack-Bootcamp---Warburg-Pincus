@@ -1,0 +1,20 @@
+
+
+
+const notas = [];
+
+notas.push(5);
+notas.push(10);
+notas.push(10);
+
+let soma = 0;
+
+for(let i = 0; i < notas.length; i++) {
+	const notas = notas[i];
+	soma = soma + notas;
+}
+
+const media = soma / notas.length;
+console.log(media);
+
+
